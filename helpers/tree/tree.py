@@ -14,7 +14,7 @@ def makeTree(input: List[int]) -> Optional[TreeNode]:
         return None
     length = len(input)
     def inner(i: int = 0) -> TreeNode:
-        """Closure function using recursion bo build tree"""
+        """Closure function using recursion to build tree"""
         if i >= length  or input[i] is None:
             return None
         node = TreeNode(input[i])
