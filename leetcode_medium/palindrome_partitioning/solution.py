@@ -18,8 +18,6 @@ class Solution:
                 else:
                     grid[i][j] = False
         # Now we have all the palindromes
-        def dfs(thus_far: List[(int, int)]):
-            if not thus_far:
-                
-
+        # I guess it might be a knapsack problem where we're trying all the ways to 
+        # combine from the list of palindromes we now have??
         pass
